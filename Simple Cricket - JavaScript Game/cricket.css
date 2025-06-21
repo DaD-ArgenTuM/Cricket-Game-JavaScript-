@@ -1,20 +1,33 @@
 header{
     text-align: center;
-    border-bottom: 5px black solid;
 }
+
+#score{
+    border-bottom: 5px black solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;;
+
+}
+#user, #tie, #Computer{
+    margin: 5px;
+    padding: 3px;    
+    background-color: antiquewhite
+}
+
 
 body{
 background-image: url("bgimg.png");
 background-repeat: no-repeat;
 background-size:cover;
+
 }
 
 #game{
     display: flex;
     flex-direction: row;
-   
     justify-content: center;
-    
 }
 
 .button{
