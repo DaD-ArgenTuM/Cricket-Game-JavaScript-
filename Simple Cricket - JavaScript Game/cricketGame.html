@@ -18,15 +18,6 @@
   <div id="game">
     <!-- Bat Button -->
     <button id="one" class="button" onclick="
-      ///console.log('You have chosen Bat');
-      //const ComputerChoiceMsg = `Computer has chosen ${computerChoice}`;
-      //if(computerChoice === 'Ball'){
-      //  resultMsg = 'User Won!';
-      //} else if(computerChoice === 'Bat'){
-      //  resultMsg = `It's a tie`;
-      //} else if(computerChoice === 'Stump'){
-      //  resultMsg = 'Computer Won!';
-      //}
       resultMsg=getResult('Bat',generateComputerChoice());
       updateScore(resultMsg);
       showResult('Bat', computerChoice,resultMsg);
@@ -35,16 +26,6 @@
 
     <!-- Ball Button -->
     <button id="two" class="button" onclick="
-      //generateComputerChoice();
-      //console.log('You have chosen Ball');
-      //const ComputerMsg = `Computer has chosen ${computerChoice}`;
-      //if(computerChoice === 'Stump'){
-      //  resultMsg = 'User Won!';
-      //} else if(computerChoice === 'Ball'){
-      // resultMsg = `It's a tie`;
-      //} else if(computerChoice === 'Bat'){
-      //  resultMsg = 'Computer Won!';
-      //}
       resultMsg=getResult('Ball',generateComputerChoice());
       showResult('Ball', computerChoice,resultMsg);
       updateScore(resultMsg);
@@ -52,18 +33,6 @@
 
     <!-- Stump Button -->
     <button id="three" class="button" onclick="
-      //generateComputerChoice();
-      //console.log('You have chosen Stump');
-      //const ComputerChoiceMsgs = `Computer has chosen ${computerChoice}`;
-
-      //if(computerChoice === 'Bat'){
-      //  resultMsg = 'User Won!';
-      //} else if(computerChoice === 'Stump'){
-      //  resultMsg = `It's a tie`;
-      //} else if(computerChoice === 'Ball'){
-      //  resultMsg = 'Computer Won!';
-      //}
-
       resultMsg=getResult('Stump',generateComputerChoice());
       showResult('Stump', computerChoice,resultMsg);
       updateScore(resultMsg);
